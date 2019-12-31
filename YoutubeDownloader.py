@@ -28,7 +28,7 @@ def CreateWidgets():
 def Browse():
     # Presenting user with a pop-up for directory selection. initialdir argument is optional
     # Retrieving the user-input destination directory and storing it in downloadDirectory
-    downloadDirectory = filedialog.askdirectory(initialdir="/Users/abhijithwarrier/Movies")
+    downloadDirectory = filedialog.askdirectory(initialdir="YOUR DIRECTORY PATH")
 
     # Displaying the directory in the directory textbox
     downloadPath.set(downloadDirectory)
